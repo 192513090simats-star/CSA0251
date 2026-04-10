@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main() 
+{
+    int age;
+    printf("Enter age: ");
+    scanf("%d", &age);
+    switch(age / 10) {
+        case 0:
+        case 1:
+            printf("Child");
+            break;
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+            printf("Adult");
+            break;
+        case 6:
+        case 7:
+        case 8:
+        case 9:
+            printf("Senior");
+            break;
+        default:
+            printf("Invalid age");
+    }
+    return 0;
+}
