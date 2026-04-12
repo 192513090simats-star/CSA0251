@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() 
+{
+    int i = 1;   // start from 1 (first odd number)
+    while(i <= 10)
+    {
+        printf("%d\n", i);
+        i += 2;   // jump to next odd number
+    }
+    return 0;
+}
