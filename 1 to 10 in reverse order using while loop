@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() 
+{
+    int i = 10;   // start from 10
+    while(i >= 1)   // condition
+    {
+        printf("%d\n", i);
+        i--;   // decrement
+    }
+    return 0;
+}
