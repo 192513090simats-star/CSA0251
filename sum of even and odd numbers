@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main()
+{
+    int n, i = 1;
+    int even_sum = 0, odd_sum = 0;
+    printf("Enter n: ");
+    scanf("%d", &n);
+    while(i <= n)
+    {
+        if(i % 2 == 0)
+        {
+            even_sum = even_sum + i;   // even
+        }
+        else
+        {
+            odd_sum = odd_sum + i;    // odd
+        }
+        i++;
+    }
+    printf("Sum of even numbers = %d\n", even_sum);
+    printf("Sum of odd numbers = %d\n", odd_sum);
+    return 0;
+}
