@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() 
+{
+    int n, i = 2, sum = 0, count = 0;
+    printf("Enter n: ");
+    scanf("%d", &n);
+    while(count < n)
+    {
+        sum = sum + i;   // add even number
+        i += 2;          // next even number
+        count++;
+    }
+    printf("Sum = %d", sum);
+    return 0;
+}
